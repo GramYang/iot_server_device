@@ -1,0 +1,11 @@
+{
+    "server_port":8108,
+    "log_local":true,
+    "log_debug":true,
+    "mysql_username":"gram",
+    "mysql_password":"yangshu88",
+    "mysql_addr":"106.54.87.204",
+    "mysql_port":3306,
+    "mysql_database":"iot1",
+    "jwt_secret":"cqdq"
+}

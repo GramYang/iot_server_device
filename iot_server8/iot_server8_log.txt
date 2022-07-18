@@ -1,0 +1,25 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /login                    --> iot_server8/router.login (3 handlers)
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /login                    --> iot_server8/router.login (3 handlers)
+gylog.go:296: ERROR Error 1054: Unknown column 'user_name' in 'where clause'
+[GIN] 2022/04/26 - 08:31:48 | 500 |     95.9507ms |       127.0.0.1 | POST     "/login"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /login                    --> iot_server8/router.login (3 handlers)
+gylog.go:296: ERROR Error 1054: Unknown column 'user_name' in 'where clause'
+[GIN] 2022/04/26 - 08:38:39 | 500 |     26.7234ms |       127.0.0.1 | POST     "/login"

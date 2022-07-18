@@ -1,0 +1,15 @@
+{
+    "server_port":8106,
+    "log_local":true,
+    "log_debug":true,
+    "pulsar_ip":"106.54.87.204",
+    "pulsar_port":9005,
+    "pulsar_topic":"persistent://cqdq/cqdq1/iot_server6",
+    "iot_endpoint":"cn-shanghai",
+    "iot_accesskeyid":"LTAI5tQXTTvroaEw6cnj4Q94",
+    "iot_accesskeysecret":"Rn6IUHod6cSPMmSLUJ6PfYfg56hdI1",
+    "iot_instanceid":"iot-060a0a3a",
+    "iot_consumer_groupid":"mPeg51uxgjDN1XzozRtG000100",
+    "iot_uid":"282053834198513516",
+    "iot_subscribe_clientid":"cqdq_iot_server6"
+}

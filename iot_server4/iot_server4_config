@@ -1,0 +1,22 @@
+{
+    "server_port":8104,
+    "prom_port":9104,
+    "log_local":true,
+    "log_debug":true,
+    "pulsar_ip":"106.54.87.204",
+    "pulsar_port":9005,
+    "pulsar_topic1":"persistent://cqdq/cqdq1/iot_server6",
+    "jwt_secret":"cqdq",
+    "mysql_username":"gram",
+    "mysql_password":"yangshu88",
+    "mysql_addr":"106.54.87.204",
+    "mysql_port":3306,
+    "mysql_database":"iot1",
+    "iot_endpoint":"cn-shanghai",
+    "iot_accesskeyid":"LTAI5tQXTTvroaEw6cnj4Q94",
+    "iot_accesskeysecret":"Rn6IUHod6cSPMmSLUJ6PfYfg56hdI1",
+    "iot_instanceid":"iot-060a0a3a",
+    "cmd_interval":250,
+    "loop_interval":4,
+    "heartbeat_interval":15
+}

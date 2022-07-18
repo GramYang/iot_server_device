@@ -1,0 +1,12 @@
+#syntax=docker/dockerfile:1
+FROM golang:1.17-alpine AS build
+WORKDIR /app
+COPY . .
+RUN go env -w GOPROXY=https://goproxy.cn,direct
+RUN go mod download
+RUN go build -o iot_server4
+
+FROM build
+EXPOSE 8104/tcp
+EXPOSE 9104/tcp
+CMD ["./iot_server4"]

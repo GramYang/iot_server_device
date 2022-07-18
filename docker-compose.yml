@@ -1,0 +1,55 @@
+version: "3.8"
+
+services:
+  iot_server4:
+    depends_on:
+      - iot_server6
+    build:
+      context: iot_server4
+      dockerfile: Dockerfile.iot_server4
+    container_name: iot_server4_container
+    hostname: iot_server4_container
+    ports:
+      - "8104:8104"
+      - "9104:9104"
+    logging:
+      options:
+        max-size: "200k"
+        max-file: "10"
+    deploy:
+      restart_policy:
+        condition: on-failure
+
+  iot_server6:
+    depends_on:
+      - iot_server8
+    build:
+      context: iot_server6
+      dockerfile: Dockerfile.iot_server6
+    container_name: iot_server6_container
+    hostname: iot_server6_container
+    ports:
+      - "8106:8106"
+    logging:
+      options:
+        max-size: "200k"
+        max-file: "10"
+    deploy:
+      restart_policy:
+        condition: on-failure
+
+  iot_server8:
+    build:
+      context: iot_server8
+      dockerfile: Dockerfile.iot_server8
+    container_name: iot_server8_container
+    hostname: iot_server8_container
+    ports:
+      - "8108:8108"
+    logging:
+      options:
+        max-size: "200k"
+        max-file: "10"
+    deploy:
+      restart_policy:
+        condition: on-failure
