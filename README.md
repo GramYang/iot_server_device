@@ -26,3 +26,7 @@ Straw=消息队列+afterfunc回调。
 
 ## iot_server8
 基于gin的http服务器，用于登录验证和生成基于jwt的token并返回。
+
+## 对应测试前端
+https://github.com/GramYang/iot_server_device_client
+
